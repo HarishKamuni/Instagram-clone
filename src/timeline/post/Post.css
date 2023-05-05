@@ -1,0 +1,77 @@
+.post{
+    width: 550px;
+    height: 400px;
+    margin: 30px 40px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.post_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+.post_header_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar{
+    font-size: 30px;
+    font-weight: bold;
+}
+.post_header_left .username{
+    font-size: 18px;
+    margin: 0px 5px;
+}
+.post_header_left > span{
+    color: gray;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.post_image{
+    width: 550px;
+   
+}
+.post_image > img{
+    width: 100%;
+    height: 350px;
+    border-radius: 6px;
+    border: 0.6px solid rgba(128, 128, 128, 0.516);
+    margin-bottom: 15px;
+}
+.post_footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_main_icons{
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post_icon{
+    font-size: 22px;
+    font-weight: bold;
+}
+.post_icon:hover{
+    cursor: pointer;
+}
+.post_footer > span{
+    font-size: 14px;
+    color: gray;
+}

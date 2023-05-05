@@ -1,0 +1,46 @@
+.suggestions{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.suggestion_title{
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.usename_left{
+    display: flex;
+}
+.usename_left > img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.username_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.relation{
+    color: gray;
+    font-size: 12px;
+}
+.suggestion_username{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.follow_button{
+    color: #0095f6;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+}
+.follow_button:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.username{
+    font-size: 14px;
+    font-weight: 600;
+}

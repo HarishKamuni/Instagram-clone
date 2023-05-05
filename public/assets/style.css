@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;1,100&family=Flamenco&family=Lato:wght@100&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,900&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,30 @@
+.timeline{
+    display: flex;
+    flex-direction: row;
+}
+.timeline_left{
+    flex: 0.7;
+}
+.timeline_right{
+    flex: 0.3;
+}
+
+.suggestions{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.suggestion_title{
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px){
+    .container{
+        padding: 0 3.2rem;
+    }
+    .grid-three-coloumn{
+        grid-template-columns: 1fr 1fr;
+    }
+  }

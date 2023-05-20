@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Suggestions.css"
-const Suggestions = ({img,username}) => {
+const Suggestions = ({ img, username }) => {
+  console.log(img)
   return (
       
       <div className="suggestions_usernames">
@@ -9,7 +10,7 @@ const Suggestions = ({img,username}) => {
             {/* <span className='avatar'>
               <RxAvatar/>
             </span> */}
-            <img src={img} alt="" />
+            <img src={img} alt="alternative" />
             <div className="username_info">
               <span className="username">{username}</span>
               <span className="relation">New to instagram</span>

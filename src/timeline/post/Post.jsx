@@ -7,8 +7,9 @@ const Post = ({like,photo,date,username,img}) => {
     const [bookMark,setBookMark] = useState(false);
     const [likeCount,setLikeCount] = useState(like)
     const handleLike = ()=>{
-        setLikeCount(liked?likeCount-1:likeCount+1)
+       
         setLiked(!liked)
+        setLikeCount(liked?likeCount-1:likeCount+1)
     }
     const handleBookMark = ()=>{
         setBookMark(!bookMark)

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { MdMoreHoriz ,MdFavoriteBorder,MdBookmarkBorder,MdChatBubbleOutline,MdFavorite,MdBookmark} from "react-icons/md";
 import { FaTelegramPlane } from "react-icons/fa";
 import "./Post.css"
-const Post = ({like,photo,date,username,img}) => {
+const Post = ({like,photo,date,username,image}) => {
     const [liked,setLiked] = useState(false);
     const [bookMark,setBookMark] = useState(false);
     const [likeCount,setLikeCount] = useState(like)
@@ -19,7 +19,7 @@ const Post = ({like,photo,date,username,img}) => {
     <div className='post'>
         <div className="post_header">
             <div className="post_header_left">
-                <img src={img} className='user_img' alt="user_img" />
+                <img src={image} className='user_img' alt="user_img" />
                 {/* <RxAvatar className='avatar'>R</RxAvatar> */}
                 <div className='username'>{username}</div> . <span>{date}</span>
             </div>

@@ -9,7 +9,7 @@ const TimeLine = () => {
       <div className='container timeline'>
         <div className="timeline_left">
             <div className="timeline_post">
-              {PostData.map(items=><Post key={items.id} date={items.date} like={items.like} photo={items.photo} username={items.username} img={items.image}/>)}
+              {PostData.map(items=><Post key={items.id} date={items.date} like={items.like} photo={items.photo} username={items.username} image={items.image}/>)}
             </div>
         </div>
         <div className="timeline_right">
